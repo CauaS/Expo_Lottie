@@ -1,3 +1,5 @@
+//USING CALLBACK METHOD
+
 function getUser(callback){
     setTimeout(function() {
         return callback(null, {
