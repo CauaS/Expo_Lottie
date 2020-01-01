@@ -8,9 +8,3 @@ async function getPeople(name) {
     const response = await axios.get(url);
     return response.data;
 }
-
-getPeople('r2').then(result => {
-    console.log('Result = ',result);
-}).catch(error => {
-    console.error('Error = ', error);
-})

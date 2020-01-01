@@ -51,8 +51,6 @@ getUser( function resolveUser(erro, user){
                 console.erro('ERRO ADDRESS', erro2);
                 return;
             }
-
-
         console.log(`
             O senhor ${user.name} com a idade de ${user.age} mora no endereço ${address.street} nro: ${address.number}
             bairro ${address.address} que possui o telefone ${phoneNumber.phoneNumber}.
