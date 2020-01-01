@@ -58,9 +58,5 @@ getUser( function resolveUser(erro, user){
             bairro ${address.address} que possui o telefone ${phoneNumber.phoneNumber}.
         `);
     });
+  });
 });
-    
-
-
-});
-//const phoneNumber = getPhoneNumber(user.id);
