@@ -20,19 +20,21 @@ async function main(){
 
         //const names = [];
        
-        /*
-        //Using forEach we have to create a const names previouly
-        result.results.forEach(item => {
-            names.push(item.name);
-        });
-        */
+    /*
+            //Using forEach we have to create a const names previouly
 
-       /*
-       //Using map the const name have to be created like:
-        const names = result.results.map(item => {
-            return item.name
-        });
-        */
+            result.results.forEach(item => {
+                names.push(item.name);
+            });
+    */
+
+    /*
+        //Using map the const name have to be created like:
+
+            const names = result.results.map(item => {
+                return item.name
+            });
+    */
 
         const names = result.results.myMap((person, index)=>{
             return person.name;
